@@ -94,9 +94,8 @@ section{
     /* background-color:#fafafa; */
     border-radius: 0 20px 20px 0;
     position: relative;
-    background: url("whatsapbg.jpg");
+    background: url("hd2whatsapp.jpg");
     background-repeat: no-repeat;
-    /* background-position: right top,left bottom;  */
     background-size: 100% 100%;
 }
 .control_button{
@@ -323,6 +322,8 @@ section{
     height: 60px;
     background-color:#fafafa;
     border-radius: 0 20px 0 0;
+    display: flex;
+    flex-direction: row;
 }
 .right_upper_left{
     width: 50%;
@@ -376,5 +377,192 @@ section{
     height: 50px;
     background-color:#fafafa;
     border-radius: 0 0 20px 0;
+}
+.right_upper_right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right_upper_right>ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.right_upper_right>ul>li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+.right_upper_right>ul>li>img{
+    width: 25px;
+}
+.right_down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.right_down>img{
+    width: 25px;
+}
+.input_msg{
+    width: 70%;
+    background: white;
+    padding: 5px;
+    border-radius: 15px;
+}
+.input_msg>input[type='text']{
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.right_middle{
+    border: 1px solid black;
+    width: 100%;
+    min-height:calc(100% - 110px);
+    position: absolute;
+    top: 60px;
+}
+.enclipted_msg{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
+.enclipted_msg>p{
+    width: 60%;
+    background-color: #feecdc;
+    color: #728088;
+    font-size: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enclipted_msg>p>img{
+    width: 20px;
+    margin-right: 20px;
+}
+.today_p{
+    background-color: #ffffff;
+    color: #8d9294;
+    width: 7%;
+    padding: 7px;
+    position: relative;
+    top: 65px;
+    left: 175px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px;
+    font-size: 8px;
+    text-align: center;
+}
+.received_msg_1{
+    width: 40%;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    background-color: white;
+    border-radius: 0px 5px 5px 5px;
+    padding: 3px;
+}
+.received_msg_1>p{
+    font-size: 10px;
+}
+.received_msg_1>span{
+    position: relative;
+    right: -206px;
+    font-size: 10px;
+}
+.received_msg_2{
+    background: url(Screenshot\ 2024-01-19\ 210525.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 40%;
+    height: 94px;
+    position: absolute;
+    top: 229px;
+    left: 10px;
+    border-radius: 0px 5px 5px 5px;
+}
+.received_msg_2>span{
+    position: relative;
+    right: -212px;
+    top: 71px;
+    font-size: 10px;
+    color: white;
+}
+.received_msg_3{
+    width: 40%;
+    position: absolute;
+    top: 324px;
+    left: 10px;
+    background-color: white;
+    border-radius: 0px 5px 5px 5px;
+    padding: 2px;
+}
+.received_msg_3>p{
+    font-size: 10px;
+}
+.received_msg_3>span{
+    position: relative;
+    right: -206px;
+    font-size: 10px;
+}
+.sent_msg_1{
+    width: 22%;
+    position: absolute;
+    top: 198px;
+    left: 475px;
+    background-color: #d9fdd3;
+    border-radius: 5px 0px 5px 5px;
+    padding: 2px;
+}
+.sent_msg_1>p{
+    font-size: 10px;
+}
+.sent_msg_1>span{
+    position: relative;
+    right: -49px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sent_msg_1>span>img{
+    width: 10px;
+}
+
+.sent_msg_2{
+    width: 22%;
+    position: absolute;
+    top: 358px;
+    left: 473px;
+    background-color: #d9fdd3;
+    border-radius: 5px 0px 5px 5px;
+    padding: 2px
+}
+.sent_msg_2>p{
+    font-size: 10px;
+}
+.sent_msg_2>span{
+    position: relative;
+    right: -49px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sent_msg_2>span>img{
+    width: 10px;
 }
 /* MAIN CSS END HERE */
